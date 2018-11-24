@@ -56,7 +56,6 @@ function verifyMove(event) {
         } else{
             numberChances = 0;
         }
-
     }
 
     if(numberChances == 2){
