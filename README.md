@@ -3,18 +3,26 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [Contributing](#contributing)
+* [dependencies](#dependencies)
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+O jogo da Memória desenvolvido consitem em:
+- Encontrar com o menor número de tantativas as 8 cartas semelhantes;
+- Cada jogada possui duas tentativas;
+- No momento em que o jogador descobre duas cartas semelhantes e consecutivas, este ganhará um ponto;
+- Quando o jogador fizer 8 acertos (pontos), o jogo mostrará um resumo do desempenho do jogador;
+- O jogador ainda poderá ganhar estrelas, sendo: 5 entrelas até 12 movimentações, 4 estrelas até 16 movimentações, 3 estrelas até 20 movimentações, 2 estrelas até 24 movimentações, 1 estrela até 28 movimentações e zero estrela a partir de 29 movimentações.
 
-To get started, open `js/app.js` and start building out the app's functionality
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
 
-## Contributing
+## Dependencies
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+Para que o Jogo funcione em seu servidor, deverá baixar todos os arquivos conforme o repositório https://github.com/AndreGregorio/fend-project-memory-game-andre.
+O jogo possui dependêcia dos arquivos e pastas conforme dispostas no repositório supra citado.
+É necessário que todos arquivos sejam mantidos em duas devidas pastas, como:
+- Arquivo index.html, deverá permanecer na  pasta raiz do jogo;
+- Arquivo app.css, deverá ser mantido na pasta CSS;
+- Arquivo app.js, deverá ser mantido na pasta js;
+- Arquivo geometry2.png, deverá ser mantido na pasta img.
+- Em resumo, deverá fazer o download ou o clone do repositório conforme indicado acima.

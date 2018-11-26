@@ -3,9 +3,11 @@
 <head>
     <meta charset="utf-8">
     <title>Jogo da Memória</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
     <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/app.css">
 </head>
 <body>
@@ -56,7 +58,8 @@
 
         <div id="openModal" class="modalDialog">
                 <div>
-                    <a id="close" href="#close" title="Close" class="close">play again</a>
+                    <!-- <a id="close" href="#close" title="Close" class="close">play again</a> -->
+                    <a id="close" title="Close" class="close">play again</a>
                     <h2>Você Venceu...Parabéns!</h2>
                     <hr>
                     <div class="textoModal">
@@ -79,7 +82,7 @@
                 <li id="02" class="card">
                     <i class="fa fa-diamond"></i> 
                 </li>
-                <li id="03" class="card match">
+                <li id="03" class="card">
                     <i class="fa fa-anchor"></i>
                 </li>
                 <li id="04" class="card">
@@ -88,7 +91,7 @@
                 <li id="05" class="card">
                     <i class="fa fa-home"></i>
                 </li>
-                <li id="06" class="card match">
+                <li id="06" class="card">
                     <i class="fa fa-home"></i>
                 </li>
                 <li id="07" class="card">
@@ -109,7 +112,7 @@
                 <li id="12" class="card">
                     <i class="fa fa-bicycle"></i>    
                 </li>
-                <li id="13" class="card open show">
+                <li id="13" class="card">
                     <i class="fa fa-scissors"></i>
                 </li>
                 <li id="14" class="card">
@@ -128,6 +131,5 @@
     </div>
 
     <script src="js/app.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>

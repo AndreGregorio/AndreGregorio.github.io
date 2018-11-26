@@ -13,6 +13,7 @@
  let tempo;
  let getEstrelas = document.querySelectorAll('i');
  let quantidadeEstrelas = 5;
+ let event = {};
 
  theLabel = document.getElementById("time");
  let acertos = document.querySelector('.acertos');
@@ -27,6 +28,8 @@
  
 // Recebe o clique do mouse e vira a carta
 let evento = document.getElementById('deck');
+
+/*************************************************************************************************/
 
 let listener = function(event) {
 
@@ -350,6 +353,7 @@ function resetaEstrelas(){
 }
 
 contaTempo();
+
 reseta(event);
 
 getIcones(icones);
