@@ -3,7 +3,8 @@
 ## Table of Contents
 
 * [Instructions](#instructions)
-* [dependencies](#dependencies)
+* [Dependencies_Internas](#Dependencies_Internas)
+* [Dependencies_Externas](#Dependencies_Externas)
 
 ## Instructions
 
@@ -16,7 +17,7 @@ O jogo da Memória desenvolvido consitem em:
 
 
 
-## Dependencies
+## Dependencies_Internas
 
 Para que o Jogo funcione em seu servidor, deverá baixar todos os arquivos conforme o repositório https://github.com/AndreGregorio/fend-project-memory-game-andre.
 O jogo possui dependêcia dos arquivos e pastas conforme dispostas no repositório supra citado.
@@ -26,3 +27,10 @@ O jogo possui dependêcia dos arquivos e pastas conforme dispostas no repositór
 - Arquivo app.js, deverá ser mantido na pasta js;
 - Arquivo geometry2.png, deverá ser mantido na pasta img.
 - Em resumo, deverá fazer o download ou o clone do repositório conforme indicado acima.
+
+## Dependencies_Externas
+
+- Para que o Jogo funcione adequadamente, precisaremos das três dependências externas:
+- Número 01: Icones da font-awesome https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css
+- Número 02: Família de fontes Coda https://fonts.googleapis.com/css?family=Coda
+- Número 03: Jquery https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
