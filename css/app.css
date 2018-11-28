@@ -338,7 +338,8 @@ h1 {
     }
 
     .deck {
-        width: 380px;
+        width: calc(100% - 8px);
+        /* width: 380px; */
         min-height: 480px;
         background: linear-gradient(160deg, #02ccba 0%, #aa7ecd 100%);
         padding: 6px;
@@ -403,7 +404,8 @@ h1 {
      */
     
     .score-panel {
-        width: 380px;
+        width: calc(100% - 8px);
+        /* width: 380px; */
         margin-bottom: 5px;
         vertical-align: middle;
         align-items: center;
@@ -416,7 +418,8 @@ h1 {
     }
     
     .score {
-        width: 380px;
+        width: calc(100% - 8px);
+        /* width: 380px; */
         vertical-align: middle;
         align-items: center;
         display: flex;
